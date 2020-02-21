@@ -297,7 +297,7 @@ a {
       color: $green;
     }
     .advantages__item-images {
-      g {
+      path {
         fill: #fff;
       }
     }
@@ -347,7 +347,7 @@ a {
 // start autohor
 
 .autohor {
-  // background-position: center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 750px;
@@ -380,6 +380,34 @@ a {
     background-color: #fff;
   } 
 }
-
-
 // end autohor
+//  start tutorial
+.tutorial {
+  padding: 70px 0 120px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    max-width: 370px;
+    width: 100%;
+  }
+}
+
+.tutorial__item {
+  &-images {
+    min-height: 270px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  &-title {
+    background-color: #f8f8f8;
+    font-size: 24px;
+    text-align: center;
+    @include f700;
+    padding: 30px 10px;
+    color: $bg;
+  }
+}
+//  end tutorial
