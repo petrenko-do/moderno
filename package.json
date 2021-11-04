@@ -23,6 +23,7 @@
     "sass": "^1.36.0"
   },
   "dependencies": {
-    "gulp-cli": "^2.3.0"
+    "gulp-cli": "^2.3.0",
+    "ion-rangeslider": "^2.3.1"
   }
 }

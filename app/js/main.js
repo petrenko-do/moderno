@@ -6,7 +6,6 @@ $(function () {
     readOnly: true
   });
 
-
 $('.product-slider__inner').slick({
   dots: true,
   arrows: false,
@@ -15,10 +14,20 @@ $('.product-slider__inner').slick({
   slidesToScroll: 4
 });
 
-  var mixer = mixitup('.products__inner-box');
+var mixer = mixitup('.products__inner-box');
 
-  
+$(".js-range-slider").ionRangeSlider({
+  type: "double",
+  min: 0,
+  max: 1000,
+  from: 200,
+  to: 500,
+  grid: true
+});
+
+
+
+
 })
-
 
 
