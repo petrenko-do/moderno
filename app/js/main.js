@@ -47,9 +47,10 @@ $(function () {
 
 
 
-  var mixer = mixitup('.products__inner-box');
+   
 
 
 });
 
+mixer = mixitup('.products__inner-box');
 
