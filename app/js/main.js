@@ -48,7 +48,7 @@ $(function () {
   });
 
 
-  $('input[type=""], select').styler(); 
+  // $('input[type=""], select').styler(); 
 
 
 
